@@ -1,0 +1,5 @@
+0 6 * * * python3 dailyTexter.py >> dailyLog.txt
+0 10 * * * python3 sendLunch.py
+0 16 * * * python3 sendDinner.py
+59 11 * * * pkill python
+0 0 * * * python3 textServer.py
